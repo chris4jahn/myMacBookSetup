@@ -1,0 +1,13 @@
+git
+intune-company-portal
+karabiner-elements
+logi-options+
+microsoft-edge
+microsoft-excel
+microsoft-onenote
+microsoft-outlook
+microsoft-powerpoint
+microsoft-word
+shottr
+signal
+visual-studio-code
