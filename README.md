@@ -1,4 +1,6 @@
-# myMacBookSetup
+# myMacBookSetup for desaster recovery
+
+Nobody needs backup, everyone needs recovery. Desasters always come, when you don't expect and when you don't need them. That's why preparing for such cases is crucial. With this Readme I am preparing myself for a faster recovery in case it happens again.
 
 Recently I had an issue with my MacBook out of nowhere. Intune Management said that my device was not registered any more. After several tries to get it into the management again I decided to reinstall it from scratch. As I did this I decided to docment all necessary settings to get it up an running again. Here is my result
 
@@ -43,7 +45,12 @@ brew install $(cat packages.txt)
 
 Here is my baseline [packages.txt](./packages.txt)
 
-### Browser Extensions
+## Visual Studio Code extensions
+
+I use vscode for preparing my blog posts, for developing scripts and IaC templates. Therefore I use several extensions.
+These are my must have [vscode-extensions.txt](./vscode-extensions.txt)
+
+## Browser Extensions
 
 As I use Edge as my main browser I don'T need to care about the extensions. They are synced together with bookmarks.
 

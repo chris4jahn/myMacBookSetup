@@ -1,0 +1,23 @@
+.NET Install Tool
+Azure Account
+Azure CLI Tools
+Azure Developer CLI
+Azure PowerShell Tools
+Azure Resource Manager (ARM) Tools
+Azure Resources
+Azure Terraform
+Bicep
+Github Copilot
+Github Copilot Chat
+Github Copilot for Azure
+Hashicorp Terraform
+Learn Authoring Pack
+Learn Training AI Assistant
+learn-article-templates
+learn-images
+learn-markdown
+learn-preview
+learn-scaffolding
+learn-yaml
+markdownlint
+YAML
