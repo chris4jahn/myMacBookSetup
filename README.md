@@ -24,6 +24,9 @@ I install most of my apps using Homebrew via the command line.
 - Visual Studio Code
 - Microsoft Outlook
 - Shottr
+- Signal
+- The Unarchiver
+- Visual Studio Code
 
 ### Automating with Homebrew
 

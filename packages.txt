@@ -10,4 +10,5 @@ microsoft-powerpoint
 microsoft-word
 shottr
 signal
+the-unarchiver
 visual-studio-code
