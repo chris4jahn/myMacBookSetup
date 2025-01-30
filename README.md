@@ -47,7 +47,7 @@ I use Homebrew to automate the installation process.
 
 ## Visual Studio Code Extensions
 
-I use VS Code for writing blog posts, scripting, and Infrastructure as Code (IaC). Here are my essential extensions:
+I use VS Code for writing blog posts, scripting, and Infrastructure as Code (IaC). Here are my essential extensions. I automate the installation using VS Code CLI (see below).
 
 - .NET Install Tool
 - Azure Account
@@ -72,6 +72,8 @@ I use VS Code for writing blog posts, scripting, and Infrastructure as Code (IaC
 - Learn YAML
 - Markdownlint
 - YAML
+
+### Automation with VS Code CLI
 
 If VS Code CLI is not present yet install it by opening VS Code and typing **CMD + Shift + P**. Enter the following command
 
@@ -101,18 +103,18 @@ Since I use Edge as my main browser, my extensions and bookmarks sync automatica
 
 Most Mac preferences and application settings are stored in **plist** files. I recommend backing these up to retain settings after a reinstall. You can find them under:
 
-```
+```bash
 ~/Library/Preferences/
 ```
 
-I use **Time Machine** backups with an external SSD to keep my settings up to date.
+I use **Time Machine** backups with an external SSD to keep my settings and more up to date.
 
 ## Karabiner Elements
 
 I use **Karabiner Elements** mainly for three reasons:
 
 1. **Mouse and Trackpad**  
-   By default, macOS applies the same scrolling settings to both. If I enable *Natural Scrolling* for my trackpad, my mouse wheel scrolls in the wrong direction. Karabiner Elements allows me to reverse the mouse wheel independently.
+   By default, macOS applies the same scrolling settings to both, mouse and trackpad. If I enable *Natural Scrolling* for my trackpad, my mouse wheel scrolls in the wrong direction. Karabiner Elements allows me to reverse the mouse wheel independently.
    ![Mousewheel settings](./media/karabiner-elements-mousewheel.png)
 
 2. **Keyboard Layout**  
