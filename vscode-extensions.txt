@@ -1,23 +1,23 @@
-.NET Install Tool
-Azure Account
-Azure CLI Tools
-Azure Developer CLI
-Azure PowerShell Tools
-Azure Resource Manager (ARM) Tools
-Azure Resources
-Azure Terraform
-Bicep
-Github Copilot
-Github Copilot Chat
-Github Copilot for Azure
-Hashicorp Terraform
-Learn Authoring Pack
-Learn Training AI Assistant
-learn-article-templates
-learn-images
-learn-markdown
-learn-preview
-learn-scaffolding
-learn-yaml
-markdownlint
-YAML
+azps-tools.azps-tools
+davidanson.vscode-markdownlint
+docsmsft.docs-article-templates
+docsmsft.docs-authoring-pack
+docsmsft.docs-images
+docsmsft.docs-markdown
+docsmsft.docs-preview
+docsmsft.docs-scaffolding
+docsmsft.docs-yaml
+github.copilot
+github.copilot-chat
+hashicorp.terraform
+learningengineeringoperations.learn-training-ai-assistant
+ms-azuretools.azure-dev
+ms-azuretools.vscode-azure-github-copilot
+ms-azuretools.vscode-azureresourcegroups
+ms-azuretools.vscode-azureterraform
+ms-azuretools.vscode-bicep
+ms-dotnettools.vscode-dotnet-runtime
+ms-vscode.azure-account
+ms-vscode.azurecli
+msazurermtools.azurerm-vscode-tools
+redhat.vscode-yaml
