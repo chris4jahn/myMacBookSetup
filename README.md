@@ -73,7 +73,16 @@ I use VS Code for writing blog posts, scripting, and Infrastructure as Code (IaC
 - Markdownlint
 - YAML
 
-You can install them via VS Code CLI using the following command:
+If VS Code CLI is not present yet install it by opening VS Code and typing **CMD + Shift + P**. Enter the following command
+
+```bash
+shell command
+```
+
+![image showing how to install VS Code CLI](./media/vscodecli.png)
+Here is an image of that
+
+After that you can install the extions via VS Code CLI using the following command:
 
 ```bash
 cat vscode-extensions.txt | while read extension || [[ -n $extension ]];
