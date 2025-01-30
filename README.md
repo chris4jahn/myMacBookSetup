@@ -110,7 +110,17 @@ Most Mac preferences and application settings are stored in **plist** files. I r
 ~/Library/Preferences/
 ```
 
-I use **Time Machine** backups with an external SSD to keep my settings and more up to date.
+```bash
+# Export your plist-files
+defaults export com.microsoft.teams2.helper helper.plist
+
+# import your your plist-files
+defaults import com.microsoft.teams2.helper helper.plist
+```
+
+## Files and Folders
+
+I use **Time Machine** backups with an external SSD to protect Files and Folders against unwanted deletion.
 
 ## Karabiner Elements
 
