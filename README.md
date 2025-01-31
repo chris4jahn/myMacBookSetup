@@ -1,10 +1,10 @@
-# my MacBook Setup for Disaster Recovery
+# My 4 tips to quickly recover your MacBook - My Setup for Disaster Recovery
 
 Nobody needs backup, everyone needs recovery. Disasters always strike when you least expect them. That’s why being prepared is crucial. With this README, I’m documenting my recovery process to ensure a faster setup in case it happens again.
 
 Recently, my MacBook had an issue out of nowhere—Intune Management no longer recognized my device. After multiple attempts to re-enroll it, I decided to reinstall from scratch. While doing so, I documented all necessary settings to get up and running again. Here’s my result.
 
-## Install Apps
+## 1. Install Apps
 
 I install most of my apps using Homebrew via the command line.
 
@@ -48,7 +48,7 @@ I use Homebrew to automate the installation process.
 
    Here is my baseline [packages.txt](./packages.txt)
 
-## Visual Studio Code Extensions
+## 2. Visual Studio Code Extensions
 
 I use VS Code for writing blog posts, scripting, and Infrastructure as Code (IaC). Here are my essential extensions. I automate the installation using VS Code CLI (see below).
 
@@ -102,13 +102,9 @@ Here is my list of extensions: [vscode-extensions.txt](./vscode-extensions.txt)
 
 Since I use Edge as my main browser, my extensions and bookmarks sync automatically.
 
-## Configuration Files
+## 3. Configuration Files
 
-Most Mac preferences and application settings are stored in **plist** files. I recommend backing these up to retain settings after a reinstall. You can find them under:
-
-```bash
-~/Library/Preferences/
-```
+Most Mac preferences and application settings are stored in **plist** files. I recommend backing these up to retain settings after a reinstall.
 
 ```bash
 # Export your plist-files
@@ -118,11 +114,11 @@ defaults export com.microsoft.teams2.helper helper.plist
 defaults import com.microsoft.teams2.helper helper.plist
 ```
 
-## Files and Folders
+### Automation script
 
-I use **Time Machine** backups with an external SSD to protect Files and Folders against unwanted deletion.
+There is an automation for all the plists using [this script](https://github.com/chris4jahn/macos-defaults) from [brokosz](https://github.com/brokosz). I run this as a cronjob on a daily basis.
 
-## Karabiner Elements
+### Karabiner Elements
 
 I use **Karabiner Elements** mainly for three reasons:
 
@@ -138,6 +134,10 @@ I use **Karabiner Elements** mainly for three reasons:
    I prefer using the *Home* and *End* keys to navigate lines efficiently. These settings enable this functionality on a standard keyboard.
 
    You can find my configurations here: [karabiner-elements](./karabiner-elements/)
+
+## 4. Files and Folders
+
+I use **Time Machine** backups with an external SSD to protect Files and Folders against unwanted deletion.
 
 ## Conclusion
 
