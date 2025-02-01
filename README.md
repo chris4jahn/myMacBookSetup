@@ -127,7 +127,7 @@ I use **Karabiner Elements** mainly for three reasons:
    ![Mousewheel settings](./media/karabiner-elements-mousewheel.png)
 
 2. **Keyboard Layout**  
-   I’ve encountered issues where the keyboard layout changed from ISO to ANSI, flipping keys like `^°` and `<>`. Karabiner Elements ensures my external keyboard doesn’t alter my local layout.
+   I’ve encountered issues where the keyboard layout changed from ANSI to ISO, flipping keys like `^°` and `<>`. Karabiner Elements ensures my external keyboard doesn’t alter my local layout.
    ![Keyboard Layout settings](./media/karabiner-elements-keyboard.png)
 
 3. **Home and End Keys**  
