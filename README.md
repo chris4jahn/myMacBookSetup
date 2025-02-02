@@ -1,4 +1,4 @@
-# My 4 tips to quickly recover your MacBook - My Setup for Disaster Recovery
+# 4 tips to quickly recover your MacBook - My Setup for Disaster Recovery
 
 Nobody needs backup, everyone needs recovery. Disasters always strike when you least expect them. That’s why being prepared is crucial. With this README, I’m documenting my recovery process to ensure a faster setup in case it happens again.
 
