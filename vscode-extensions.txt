@@ -17,7 +17,6 @@ ms-azuretools.vscode-azureresourcegroups
 ms-azuretools.vscode-azureterraform
 ms-azuretools.vscode-bicep
 ms-dotnettools.vscode-dotnet-runtime
-ms-vscode.azure-account
 ms-vscode.azurecli
 msazurermtools.azurerm-vscode-tools
 redhat.vscode-yaml
